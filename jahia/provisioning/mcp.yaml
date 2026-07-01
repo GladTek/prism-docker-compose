@@ -1,0 +1,5 @@
+- installAndStartModule:
+    - "mvn:org.jahia.community/jahia-mcp-community-server/RELEASE"
+# Create a token
+- executeScript: "file:/provisioning/create-token.groovy"
+- karafCommand: "log:log 'Token created'"

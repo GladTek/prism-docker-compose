@@ -1,0 +1,3 @@
+# Configure the mail server
+- executeScript: "file:/provisioning/activate-mail-server.groovy"
+- karafCommand: "log:log 'mail server activated'"
