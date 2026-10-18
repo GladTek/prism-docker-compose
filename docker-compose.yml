@@ -15,7 +15,7 @@ services:
     entrypoint: ["/bin/sh", "/source/render-provisioning.sh"]
 
   jahia:
-    image: ${JAHIA_IMAGE:-achaabni/jahia-prism:0.1.1}
+    image: ${JAHIA_IMAGE:-achaabni/jahia-prism:0.2.0}
     hostname: jahia
     depends_on:
       postgres:
